@@ -101,7 +101,7 @@ body {
   align-items: center;
   gap: 3rem;
   margin-top: 4rem;
-  width: clamp(18rem, 55%, 70rem);
+  width: clamp(18rem, 95%, 70rem);
 }
 
 .about-content > img {
@@ -142,4 +142,39 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.time-location {
+  display: flex;
+  justify-content: space-between;
+  /* gap: 4rem; */
+  width: 100%;
+}
+
+.when,
+.where {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 0;
+  width: 100%;
+}
+
+.when > h2,
+.where > h2 {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.when > p,
+.where > p {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 425px) {
+  .time-location {
+  flex-wrap: wrap;
+  }
 }
