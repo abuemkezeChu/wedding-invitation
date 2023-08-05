@@ -178,7 +178,7 @@ body {
 }
 
 .mark-presence {
-  background-color: #ffdddd;
+  background-color: #fdd;
   display: flex;
   flex-direction: column;
   gap: 1rem;
@@ -221,5 +221,4 @@ body {
   .navbar {
     display: none;
   }
-
 }
